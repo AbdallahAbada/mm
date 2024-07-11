@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Manchester Medics</title>
+    <meta name="description" content="Manchester Medics provides a wide range of healthcare services including outpatient clinics, diagnostics, and surgery. Our team works closely with primary care to ensure integrated and high-quality care for patients.">
+     <!-- Favicon -->
+     <link rel="icon" href="img/favicon-16x16.png" sizes="16x16" type="image/png">
+     <link rel="icon" href="img/favicon-32x32.png" sizes="32x32" type="image/png">
+     <link rel="icon" href="img/favicon-48x48.png" sizes="48x48" type="image/png">
+     <link rel="apple-touch-icon" sizes="180x180" href="/path/to/apple-touch-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manchester Medics</h1>
+    </header>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light px-lg-4">
+        <div class="container">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#basicExampleNav"
+                aria-controls="basicExampleNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="collapse navbar-collapse justify-content-center align-items-center font-weight-bold px-lg-4"
+                id="basicExampleNav"
+            >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                </ul>
+                <a class="navbar-brand align-items-center" href="index.html">
+                    <img src="/img/mm.png" alt="" />
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cg.html">Clinical Governance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <img src="/img/m-m.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+    </div>
+    <div class="container">
+        <section class="section">
+            <h2>WELCOME TO MANCHESTER MEDICS</h2>
+            <p>We provide fast, reliable, high-quality care within the local community, led by a team of longstanding consultants from the North of the UK.</p>
+        </section>
+    </div>
+    <section id="about" class="demo-wrap">
+        <div class="container demo-content">
+          <div class="line home-line"></div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12" id="ph-ruby">
+              <img
+                src="/img/mm-mocup.png"
+                alt="MANCHESTER MEDICS"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-6 col-md-12" id="photo-title">
+              <h2 class="title">High-Quality and Timely Healthcare in Your Community</h2>
+              <p class="para">
+                Manchester Medics, proud of our NHS heritage, are a CQC approved group of consultants delivering high-quality care across various specialties. We are dedicated to improving healthcare access and outcomes in local communities by collaborating with GP practices, Clinical Commissioning Groups, and Acute Hospital Trusts. Our goal is to provide patient-centered, evidence-based care, strengthening ties with local clinical teams and delivering services directly where people live and work.
+              </p>
+              <a href="about.html">
+                <button id="size-btn" class="btn read-more">READ MORE</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    <div id="contact" class="container formBox">
+        <section class="section">
+            <h2>Contact Us</h2>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-links row">
+            <a class="col-6 text-center text-lg-left" href="#">Home</a>
+            <a class="col-6 text-center text-lg-left" href="about.html">About</a>
+            <a class="col-6 text-center text-lg-left" href="services.html">Services</a>
+            <a class="col-6 text-center text-lg-left" href="cg.html">Clinical Governance</a>
+            <a class="col-6 text-center text-lg-left" href="#contact">Contact</a>
+        </div>
+        <p>&copy; 2024 Manchester Medics. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
